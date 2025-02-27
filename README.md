@@ -100,6 +100,10 @@ Se houver interesse, explorar a possibilidade de armazenamento local temporário
 
 ---
 
+Codigos dos Comites
+C+ID = Commit mais identificação do commit
+C+ID + AF = Commit identificado + Add File/s
+
 ⭐ **Se você gostou do projeto, deixe um Star no repositório!** ⭐
 
 Apache License

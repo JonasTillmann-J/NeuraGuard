@@ -1,0 +1,49 @@
+Esquemas das pastas e arquivos do projeto:
+
+NeuraGuard/
+│── backend/                      # Diretório do backend (Flask)
+│   ├── app.py                    # Arquivo principal do Flask
+│   ├── config.py                 # Configuração do Flask (banco, API keys)
+│   ├── requirements.txt          # Dependências do Python
+│   ├── models/                    # Modelos do banco de dados
+│   │   ├── user.py
+│   │   ├── logs.py
+│   │   ├── ai_model.py
+│   ├── routes/                    # Rotas da API
+│   │   ├── auth.py                # Login e autenticação
+│   │   ├── monitoring.py          # Monitoramento de desempenho
+│   │   ├── predictions.py         # Previsões da IA
+│   ├── services/                  # Serviços auxiliares (Firebase, API externas)
+│   ├── static/                    # Arquivos estáticos (CSS, JS)
+│   ├── templates/                 # Templates HTML (caso use Jinja)
+│   ├── tests/                     # Testes unitários (PyTest)
+│   ├── wsgi.py                    # Entrada para servidores (Gunicorn, etc.)
+│
+│── frontend/                      # Diretório do frontend (React)
+│   ├── public/                    # Arquivos públicos (favicon, index.html)
+│   ├── src/                       # Código-fonte do React
+│   │   ├── assets/                # Imagens, ícones, fontes
+│   │   ├── components/            # Componentes reutilizáveis
+│   │   ├── pages/                 # Páginas principais (Dashboard, Login)
+│   │   ├── services/              # Conexão com a API Flask
+│   │   ├── App.js                 # Componente raiz
+│   │   ├── index.js               # Ponto de entrada
+│   ├── package.json               # Dependências do React
+│
+│── database/                      # Configurações do Banco de Dados
+│   ├── schema.sql                 # Estrutura das tabelas MySQL
+│   ├── firebase_config.json       # Configuração do Firebase
+│
+│── docs/                          # Documentação
+│   ├── README.md                  # Descrição do projeto
+│   ├── API.md                     # Documentação das APIs
+│   ├── LICENSE                    # Licença Apache 2.0
+│
+│── scripts/                       # Scripts úteis
+│   ├── start.sh                   # Script para iniciar o ambiente
+│   ├── backup.sh                  # Backup do banco de dados
+│
+│── .gitignore                      # Arquivos ignorados pelo Git
+│── docker-compose.yml              # Configuração do Docker
+│── .env                            # Variáveis de ambiente
+│── CHANGELOG.md                    # Histórico de versões
