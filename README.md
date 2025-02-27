@@ -101,3 +101,7 @@ Se houver interesse, explorar a possibilidade de armazenamento local temporário
 ---
 
 ⭐ **Se você gostou do projeto, deixe um Star no repositório!** ⭐
+
+                           **Apache License**
+                       Version 2.0, January 2004
+                    http://www.apache.org/licenses/
